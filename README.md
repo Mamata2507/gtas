@@ -37,6 +37,6 @@ a3cef9735002        wcogtas/gtas-scheduler:1.0.0   "/bin/sh -c 'mkdir -…"   7 
 
 311ad198d809        wcogtas/web-app:1.0.0          "/bin/sh -c 'mkdir -…"   7 days ago          Up 47 hours         0.0.0.0:8080->8080/tcp, 0.0.0.0:8443->8443/tcp             web-app
 ```
-###***After instalation finished open any browser and http://localhost:8080/gtas/login.html***
-**user:admin
-**password:
+### ***After instalation finished open any browser and http://localhost:8080/gtas/login.html***
+### **user:admin
+### **password:
