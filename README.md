@@ -11,6 +11,7 @@ docker-compose -f elk-docker-compose.yml -f neo4j-etl-docker-compose.yml -f dock
 (this install the app)
 
 **result should be like this:**
+```
 
 [root@vahid gtas]# docker ps -a
 CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS              PORTS                                                      NAMES
@@ -35,4 +36,4 @@ a3cef9735002        wcogtas/gtas-scheduler:1.0.0   "/bin/sh -c 'mkdir -…"   7 
 76b4fe4f3a17        rmohr/activemq:5.15.9          "/bin/sh -c 'bin/act…"   7 days ago          Up 47 hours         1883/tcp, 5672/tcp, 8161/tcp, 61613-61614/tcp, 61616/tcp   activemq
 
 311ad198d809        wcogtas/web-app:1.0.0          "/bin/sh -c 'mkdir -…"   7 days ago          Up 47 hours         0.0.0.0:8080->8080/tcp, 0.0.0.0:8443->8443/tcp             web-app
-
+```
