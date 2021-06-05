@@ -40,3 +40,15 @@ a3cef9735002        wcogtas/gtas-scheduler:1.0.0   "/bin/sh -c 'mkdir -…"   7 
 ### ***After instalation finished open any browser and http://localhost:8080/gtas/login.html***
 ### **user:admin
 ### **password:
+
+
+
+#### webserver: apache2
+#### appserver: tomcat
+#### database: mariadb
+#### graph database: neo4j
+#### search engine: elasticsearch
+#### visualizatin: kibana
+#### message broker: activemq
+#### programming language: java
+#### etl tool: (data come from mariadb to neo4j means that ETL job run on data and that data import to neo4j)
