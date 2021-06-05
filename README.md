@@ -1,6 +1,6 @@
 # For instalation by using docker compose(after installing docker compose)
 
-***run the following command:***
+### ***run the following command:***
 
 ```[root@vahid gtas]# docker-compose -f elk-docker-compose.yml -f neo4j-etl-docker-compose.yml -f docker-compose.yml -f local-deployment.yml pull```
 
@@ -10,7 +10,7 @@
 
 (this install the app)
 
-***result should be like this:***
+### ***result should be like this:***
 ```
 
 [root@vahid gtas]# docker ps -a
