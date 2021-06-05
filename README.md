@@ -51,4 +51,4 @@ a3cef9735002        wcogtas/gtas-scheduler:1.0.0   "/bin/sh -c 'mkdir -…"   7 
 #### visualizatin: kibana
 #### message broker: activemq
 #### programming language: java
-#### etl tool: (data come from mariadb to neo4j means that ETL job run on data and that data import to neo4j)
+#### ETL tool: (data come from mariadb to neo4j means that ETL job run on data and that data import to neo4j)
