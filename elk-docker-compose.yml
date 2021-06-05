@@ -6,7 +6,7 @@ services:
     container_name: kibana
     image: wcogtas/kibana:1.0.0
     build:
-      context: ./gtas-parent/scripts/elastic
+      context: ./scripts/elastic
       dockerfile: install/docker/kibana/kibana.Dockerfile
     environment:
       ELASTICSEARCH_HOSTS: https://elasticsearch:9200
@@ -31,7 +31,7 @@ services:
     image: wcogtas/elasticsearch:1.0.0
     container_name: elasticsearch
     build:
-      context: ./gtas-parent/scripts/elastic
+      context: ./scripts/elastic
       dockerfile: install/docker/elasticsearch/elasticsearch.Dockerfile
     ports:
       - 9300:9300
@@ -54,7 +54,7 @@ services:
     image: wcogtas/logstash:1.0.0
     container_name: logstash
     build:
-      context: ./gtas-parent/scripts/elastic
+      context: ./scripts/elastic
       dockerfile: ./install/docker/logstash/logstash.Dockerfile
     environment: 
       MARIADB_HOST: 'mariadb'
@@ -75,7 +75,7 @@ services:
     image: wcogtas/elk-setup:1.0.0
     container_name: elk-setup
     build:
-      context: ./gtas-parent/scripts/elastic
+      context: ./scripts/elastic
       dockerfile: ./install/docker/elk-setup/elk-setup.Dockerfile
     environment:
       KIBANA_HOST: 'kibana'
