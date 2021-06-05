@@ -10,7 +10,7 @@ docker-compose -f elk-docker-compose.yml -f neo4j-etl-docker-compose.yml -f dock
 
 (this install the app)
 
-result should be like this:
+**result should be like this:**
 
 [root@vahid gtas]# docker ps -a
 CONTAINER ID        IMAGE                          COMMAND                  CREATED             STATUS              PORTS                                                      NAMES
