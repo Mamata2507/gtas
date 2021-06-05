@@ -1,4 +1,4 @@
-for instalation using docker compose(after installing docker compose)
+# for instalation using docker compose(after installing docker compose)
 
 run the following command:
 
