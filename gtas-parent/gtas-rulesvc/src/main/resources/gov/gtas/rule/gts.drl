@@ -1,0 +1,38 @@
+/*
+* Default rules for the GTAS system.
+* TODO: create Meta Rules and Rule Flow here - AB.
+*/
+package gov.gtas;
+
+import gov.gtas.model.Flight;
+import gov.gtas.model.FlightPax;
+import gov.gtas.model.Passenger;
+
+global java.util.List resultList
+/*
+Leaving old rule for reference
+rule "R1 - Extract Passengers"
+    dialect "java"
+    when
+         f:Flight( passengers.size() > 0, destination != null, passCollection:passengers, dest:destination )
+    then
+        for(Object p:passCollection){
+          insert (p);
+        }
+end
+*/
+rule "R1 - Passenger Bag Weight is 0"
+    dialect "java"
+    when
+        fp:FlightPax( fp.getBagWeight == 0)
+    then
+        insert(fp.getPassenger());
+end
+
+rule "R2 - List Passengers"
+    dialect "java"
+    when
+        p:Passenger( embarkation.equals("Timbuktu"))
+    then
+        resultList.add(p);
+end

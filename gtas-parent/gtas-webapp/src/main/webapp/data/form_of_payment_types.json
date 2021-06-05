@@ -1,0 +1,22 @@
+[
+  {
+    "id": "CC",
+    "name": "Credit Card"
+  },
+  {
+    "id": "CA",
+    "name": "Cash"
+  },
+  {
+    "id": "CK",
+    "name": "Check"
+  },
+  {
+    "id": "MS",
+    "name": "Miscellaneous Charges Order"
+  },
+  {
+    "id": "VOC",
+    "name": "Voucher"
+  }
+]
