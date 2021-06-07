@@ -1,0 +1,20 @@
+user: etl
+password: admin
+
+user: healthcheck
+password: admin
+
+
+user: root
+pass: admin
+
+user: webapp
+password: admin
+
+
+user: processor
+pass: admin
+
+
+user: logstash
+pass: admin
