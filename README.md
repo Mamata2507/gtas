@@ -6,7 +6,7 @@
 
 ***(This pull all the docker images you need for this)***
 
-```[root@vahid gtas]# docker-compose -f elk-docker-compose.yml -f neo4j-etl-docker-compose.yml -f docker-compose.yml -f local-deployment.yml -d up```
+```[root@vahid gtas]# docker-compose -f elk-docker-compose.yml -f neo4j-etl-docker-compose.yml -f docker-compose.yml -f local-deployment.yml up -d```
 
 ***(This install the app)***
 
