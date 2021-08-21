@@ -39,7 +39,7 @@ a3cef9735002        wcogtas/gtas-scheduler:1.0.0   "/bin/sh -c 'mkdir -…"   7 
 ```
 ### ***After instalation finished open any browser and http://localhost:8080/gtas/login.html***
 ### **user:admin
-### **password:
+### **password: password
 
 
 
